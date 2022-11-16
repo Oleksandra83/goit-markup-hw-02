@@ -6,6 +6,7 @@
     --primary-bg-color: #ffffff;
     --primary-white-color:#ffffff;
 }
+
 body{
     color: var(--primary-text-color);
     background-color: var(--primary-bg-color);
@@ -17,6 +18,13 @@ body{
 /*Стилі для index.html*/
 .list {
     list-style: none;
+}
+
+.container{
+margin-left: auto;
+margin-right: auto;
+width: 1200px;
+outline: 2px solid blue;
 }
 /*logo-basic*/
 .logo-basic{
