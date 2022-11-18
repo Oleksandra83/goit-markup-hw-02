@@ -174,7 +174,9 @@ color: var(--accent-color);
     list-style: none;
 }
 .title{
-color: var(--title-text-color);
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: var(--title-text-color);
 
     font-weight: 500;
     line-height: 1.19;
