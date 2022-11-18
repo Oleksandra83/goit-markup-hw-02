@@ -17,6 +17,8 @@ body{
 }
 /*Стилі для index.html*/
 .list {
+    padding: 0;
+    margin: 0;
     list-style: none;
 }
 
@@ -83,22 +85,31 @@ color: var(--accent-color);
 }
 
 /*hero*/
+.hero{
+    text-align: center;
+}
 .hero-title{
+    margin-top: 0;
+    margin-bottom: 30px;
     color: var(--primary-white-color);
     background-color: #2F303A;
 
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
+    
     letter-spacing: 0.06em;
 }
 .btn {
+    border-radius: 4px;
+    padding: 10px 32px;
+    border: 1px solid transparent;
+
     color: var(--primary-white-color);
     background-color: var(--accent-color);
-    border: 1px solid var(--accent-color);
+    
 
-   cursor: pointer;
+    cursor: pointer;
 
     font-family: inherit;
     font-weight: 700;
@@ -108,7 +119,18 @@ color: var(--accent-color);
 }
 
 /*section*/
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.section.no-padding{
+    padding-top: 0;
+    padding-bottom: 0;
+}
 .section-title{
+    margin-top: 0;
+    margin-bottom: 50px;
+
     color: var(--title-text-color);
 
     font-weight: 700;
@@ -122,6 +144,9 @@ color: var(--accent-color);
     list-style: none;
 }
 .features .title{
+    margin-top: 0;
+    margin-bottom: 10p;
+
     color: var(--title-text-color);
 
     font-weight: 700;
@@ -156,6 +181,8 @@ color: var(--title-text-color);
     text-align: center;
 }
 .team-text{
+    margin-top: 0;
+    margin-bottom: 30px;
     font-weight: 400;
     line-height: 1.19;
     text-align: center;
